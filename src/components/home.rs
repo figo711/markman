@@ -105,6 +105,9 @@ impl Component for Home {
     match action {
       Action::Tick => {
       },
+      Action::Render => {
+
+      },
       _ => {},
     }
     Ok(None)
